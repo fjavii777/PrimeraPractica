@@ -6,13 +6,28 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100dvh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.contenedor-principal{
+    text-align: center;
+}
+
 .login-box{
-    border:solid 10px red;
-    border-radius: 40px;
+    border-radius: 15px;
     color:black;
     width: 400px;
     height: 500px;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000af;
+    color: white;
+}
+.img-head{   
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    margin: 0 auto; 
+    background-color: white;
 }
 .login-box h1{
     text-align: center;
@@ -22,6 +37,7 @@ body{
     padding: 0;
     font-weight: bold;
 }
+
 .login-box input{
     width: 100%;
     height:30px;
@@ -29,3 +45,6 @@ body{
     border:solid red;
     margin-bottom: 20px;
 }
+.img-icons img{
+    width: 30px;
+} 
